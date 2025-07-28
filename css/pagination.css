@@ -1,0 +1,97 @@
+/* .main {
+    position: relative;
+} */
+
+.page-content {
+    max-width: 584px;
+    /* padding-block-end: 3rem; */
+    & img {
+        margin-inline: auto;
+    }
+    /* Decorative image for all pages */
+    & .production-line {
+        filter: invert(var(--image-invert));
+    }
+}
+
+.paginator-container {
+    display: flex;
+    justify-content: center;
+    /* position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+}
+
+.paginator {
+    display: flex;
+    @media screen and (width <= 460px) {
+        flex-direction: column;
+    }
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: auto;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    background-color: var(--el-bg);
+    color: var(--accent-colour);
+
+    /* & button[aria-current="page"] {
+        font-weight: bold;
+        pointer-events: none;
+        outline: none;
+        cursor: default;
+    } */
+
+    & button {
+        padding: 5px;
+
+        &:disabled,
+        &[aria-current="page"] {
+            pointer-events: none;
+            outline: none;
+            opacity: 0.5;
+        }
+    }
+
+    & .previous-next-btn {
+        &::before,
+        &::after {
+            position: relative;
+            top: 1px;
+        }
+    }
+
+    & .previous-btn {
+        &::before {
+            content: "⯇";
+        }
+
+        @media screen and (width <= 460px) {
+            align-self: flex-start;
+        }
+    }
+
+    & .next-btn {
+        &::after {
+            content: "⯈";
+        }
+        @media screen and (width <= 460px) {
+            align-self: flex-end;
+        }
+    }
+
+    & .page-numbers-container {
+        display: flex;
+        gap: clamp(0rem, -0.4002rem + 1.867vw, 1rem);
+        align-items: center;
+
+        /* & .page-number.current {
+            font-weight: bold;
+            background-color: #eee;
+            cursor: default;
+            pointer-events: none;
+        } */
+    }
+}

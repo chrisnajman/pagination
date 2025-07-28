@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "content": "<h1>Page 1</h1>\n<picture>\n      <source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n      <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>A GitHub Pages site built from the <code>/docs</code> folder using an\n      automated front-end\n      build process with\n      minified HTML, CSS, and JavaScript.</p>\n"
+  },
+  {
+    "id": "2",
+    "content": "<h1>Page 2</h1>\n<picture>\n    <source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n        <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n    </picture>\n<p>As well as being minified, the JavaScript is transpiled to version <a href=\"https://www.geeksforgeeks.org/javascript/es2015-latest-version-of-javascript/\" target=\"_blank\" rel=\"noopener noreferrer\">ES2015</a> for wider browser support.</p>\n"
+  },
+  {
+    "id": "3",
+    "content": "<h1>Page 3</h1>\n<picture>\n    <source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n    <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Site assets, such as images and favicons are copied across to the\n    <code>/docs</code> folder during the build process. These files must be specified in the\n    <code>scripts</code> section of the <code>package.json</code> file.\n</p>\n"
+  },
+  {
+    "id": "4",
+    "content": "<h1>Page 4</h1>\n<picture>\n    <source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n    <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>The original source files (<code>index.js</code>, files in <code>js-modules/</code>,\n    <code>style.css</code> with nesting, etc.) remain in the project root for easier development and\n    editing.\n</p>\n"
+  },
+  {
+    "id": "5",
+    "content": "<h1>Page 5</h1>\n<picture>\n    <source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n    <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p><strong>Important</strong>: When publishing to GitHub Pages, make sure the Pages setting is configured to\nserve from the <code>/docs</code> folder on the <code>main</code> branch.</p>\n"
+  }
+]
