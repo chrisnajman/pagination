@@ -1,4 +1,5 @@
-const PAGES = "../../json/pages.json"
+const PAGES = "./json/pages.json"
+
 import pages from "./components/pages.js"
 import paginator from "./components/paginator/paginator.js"
 
