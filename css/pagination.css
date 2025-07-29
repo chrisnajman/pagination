@@ -3,29 +3,26 @@
 } */
 
 .page-content {
-    max-width: 584px;
-    /* padding-block-end: 3rem; */
+    max-width: 36.5rem;
     & img {
         margin-inline: auto;
-    }
-    /* Decorative image for all pages */
-    & .production-line {
+        /* Invert image for dark mode */
         filter: invert(var(--image-invert));
+    }
+
+    & p {
+        padding-inline: 1em;
     }
 }
 
 .paginator-container {
     display: flex;
     justify-content: center;
-    /* position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0; */
 }
 
 .paginator {
     display: flex;
-    @media screen and (width <= 460px) {
+    @media screen and (width <= 28.75rem) {
         flex-direction: column;
     }
     gap: 0.5rem;
@@ -37,15 +34,8 @@
     background-color: var(--el-bg);
     color: var(--accent-colour);
 
-    /* & button[aria-current="page"] {
-        font-weight: bold;
-        pointer-events: none;
-        outline: none;
-        cursor: default;
-    } */
-
     & button {
-        padding: 5px;
+        padding: 0.3125rem;
 
         &:disabled,
         &[aria-current="page"] {
@@ -59,7 +49,7 @@
         &::before,
         &::after {
             position: relative;
-            top: 1px;
+            top: 0.0625rem;
         }
     }
 
@@ -68,7 +58,7 @@
             content: "⯇";
         }
 
-        @media screen and (width <= 460px) {
+        @media screen and (width <= 28.75rem) {
             align-self: flex-start;
         }
     }
@@ -77,7 +67,7 @@
         &::after {
             content: "⯈";
         }
-        @media screen and (width <= 460px) {
+        @media screen and (width <= 28.75rem) {
             align-self: flex-end;
         }
     }
@@ -86,12 +76,5 @@
         display: flex;
         gap: clamp(0rem, -0.4002rem + 1.867vw, 1rem);
         align-items: center;
-
-        /* & .page-number.current {
-            font-weight: bold;
-            background-color: #eee;
-            cursor: default;
-            pointer-events: none;
-        } */
     }
 }

@@ -7,12 +7,14 @@
     --trim: trim-both cap alphabetic;
 
     /* light mode (default) */
-    --body-bg: #ccc;
+    --body-bg: #fff;
     --body-fg: #000;
     --el-bg: #fff;
     --accent-colour: blue;
     --accent-neutral: #ccc;
     --image-invert: 0;
+    --shadow-top: 0 -4px 6px rgba(0, 0, 0, 0.2);
+    --shadow-bottom: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .darkmode {
@@ -22,4 +24,6 @@
     --accent-colour: aqua;
     --accent-neutral: #666;
     --image-invert: 1;
+    --shadow-top: 0 -4px 6px rgba(0, 0, 0, 0.7);
+    --shadow-bottom: 0 4px 6px rgba(0, 0, 0, 0.7);
 }
