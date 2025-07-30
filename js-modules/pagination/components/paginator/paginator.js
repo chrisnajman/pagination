@@ -9,7 +9,7 @@ export default function paginator(allPages) {
   pageNumbersContainer.classList.add("page-numbers-container")
 
   const totalPages = allPages.length
-  const maxVisible = 5
+  const maxButtonsVisible = 5
 
   // Read initial page from URL
   const urlParams = new URLSearchParams(window.location.search)
@@ -28,7 +28,7 @@ export default function paginator(allPages) {
       previousBtn,
       nextBtn,
       pageNumbersContainer,
-      maxVisible,
+      maxButtonsVisible,
       onPageChange: (pageNum) => {
         currentPage = pageNum
         updatePageWrapper(currentPage)

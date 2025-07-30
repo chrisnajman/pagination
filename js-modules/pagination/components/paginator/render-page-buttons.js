@@ -4,16 +4,16 @@ export default function renderPageButtons(
   currentPage,
   totalPages,
   pageNumbersContainer,
-  maxVisible,
+  maxButtonsVisible,
   onPageClick
 ) {
   pageNumbersContainer.innerHTML = ""
 
-  let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2))
-  let endPage = startPage + maxVisible - 1
+  let startPage = Math.max(1, currentPage - Math.floor(maxButtonsVisible / 2))
+  let endPage = startPage + maxButtonsVisible - 1
   if (endPage > totalPages) {
     endPage = totalPages
-    startPage = Math.max(1, endPage - maxVisible + 1)
+    startPage = Math.max(1, endPage - maxButtonsVisible + 1)
   }
 
   function createPageButton(pageNum) {

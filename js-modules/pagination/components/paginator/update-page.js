@@ -10,7 +10,7 @@ export default function updatePage({
   previousBtn,
   nextBtn,
   pageNumbersContainer,
-  maxVisible,
+  maxButtonsVisible,
   onPageChange,
 }) {
   loadPageContent(allPages, currentPage)
@@ -19,7 +19,7 @@ export default function updatePage({
     currentPage,
     totalPages,
     pageNumbersContainer,
-    maxVisible,
+    maxButtonsVisible,
     onPageChange
   )
 
