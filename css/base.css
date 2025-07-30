@@ -197,7 +197,7 @@ a[href^="https"] {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    padding-block: 3rem;
+    padding-block: 1em;
 }
 
 /** Skip link */

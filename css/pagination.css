@@ -5,7 +5,8 @@
     }
 
     & p {
-        padding-inline: 1em;
+        padding: 1em;
+        border: 0.125rem solid var(--accent-neutral);
     }
 }
 

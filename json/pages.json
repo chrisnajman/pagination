@@ -1,47 +1,47 @@
 [
   {
     "id": "1",
-    "title": "A Long Article Part #1",
-    "content": "<source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n      <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>A GitHub Pages site built from the <code>/docs</code> folder using an\n      automated front-end\n      build process with\n      minified HTML, CSS, and JavaScript.</p>\n"
+    "title": "Web-safe Colours, Part 1: Aqua",
+    "content": "<picture>\n      <source srcset=\"./img/aqua.avif\" type=\"image/avif\" />\n      <img src=\"./img/aqua.png\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa inventore fuga temporibus sint nulla, amet dolorem nam\nconsequatur voluptates natus qui rerum officia quos fugit error rem, perferendis voluptatibus dolorum dignissimos\nobcaecati accusamus! Iusto repudiandae accusamus, maiores, suscipit, adipisci dicta nobis ad animi sapiente consequatur\npossimus consectetur quidem voluptas amet.</p>\n"
   },
   {
     "id": "2",
-    "title": "A Long Article Part #2",
-    "content": "<source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n        <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n    </picture>\n<p>As well as being minified, the JavaScript is transpiled to version <a href=\"https://www.geeksforgeeks.org/javascript/es2015-latest-version-of-javascript/\" target=\"_blank\" rel=\"noopener noreferrer\">ES2015</a> for wider browser support.</p>\n"
+    "title": "Web-safe Colours, Part 2: Blue",
+    "content": "<source srcset=\"./img/blue.avif\" type=\"image/avif\" />\n        <img src=\"./img/blue.png\" alt=\"\" width=\"584\" class=\"main-image\">\n    </picture>\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quia tempore totam facilis dicta id quo est rem\nvelit iure. Quisquam iusto accusantium delectus corporis nam hic aliquam inventore quam praesentium? Eius architecto\ndolore culpa. Consectetur praesentium earum optio nobis, reiciendis eius? Nostrum, ratione. Eius repellendus optio\nvoluptate quis quod?</p>\n"
   },
   {
     "id": "3",
-    "title": "A Long Article Part #3",
-    "content": "<source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n    <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Site assets, such as images and favicons are copied across to the\n    <code>/docs</code> folder during the build process. These files must be specified in the\n    <code>scripts</code> section of the <code>package.json</code> file.\n</p>\n"
+    "title": "Web-safe Colours, Part 3: Green",
+    "content": "<source srcset=\"./img/green.avif\" type=\"image/avif\" />\n    <img src=\"./img/green.png\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis similique tempore eos laborum! Impedit laborum\nminus quia earum quibusdam delectus tempora eius accusamus possimus? Odit ipsa perspiciatis magni eius ex ut placeat,\ntempore quae, in minus non id, repellat illo officia necessitatibus aut quam culpa quisquam mollitia ad ducimus\nrepellendus!</p>\n"
   },
   {
     "id": "4",
-    "title": "A Long Article Part #4",
-    "content": "<source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n    <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>The original source files (<code>index.js</code>, files in <code>js-modules/</code>,\n    <code>style.css</code> with nesting, etc.) remain in the project root for easier development and\n    editing.\n</p>\n"
+    "title": "Web-safe Colours, Part 4: Lime",
+    "content": "<source srcset=\"./img/lime.avif\" type=\"image/avif\" />\n    <img src=\"./img/lime.png\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas cum facilis soluta necessitatibus! Provident id\nincidunt, quasi deleniti dignissimos recusandae, at ea quo accusamus quia quibusdam veniam eos soluta maiores delectus\nunde voluptatum odio magni saepe. Fugit minus perferendis iste repellendus rem aspernatur labore, tenetur doloremque\nquod obcaecati dolores molestiae.</p>\n"
   },
   {
     "id": "5",
-    "title": "A Long Article Part #5",
-    "content": "<source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n    <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p><strong>Important</strong>: When publishing to GitHub Pages, make sure the Pages setting is configured to\nserve from the <code>/docs</code> folder on the <code>main</code> branch.</p>\n"
+    "title": "Web-safe Colours, Part 5: Magenta",
+    "content": "<source srcset=\"./img/magenta.avif\" type=\"image/avif\" />\n    <img src=\"./img/magenta.png\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut corrupti qui molestiae error consequatur odio eaque,\nrecusandae animi cum a nesciunt architecto mollitia quas doloribus repudiandae dicta quisquam. Voluptates cumque vitae\nsint assumenda ex consequuntur recusandae officia quidem quos iusto tenetur, illum consectetur sed fugiat possimus natus\nmaiores voluptatem commodi!</p>\n"
   },
   {
     "id": "6",
-    "title": "A Long Article Part #6",
-    "content": "<source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n      <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>A GitHub Pages site built from the <code>/docs</code> folder using an\n      automated front-end\n      build process with\n      minified HTML, CSS, and JavaScript.</p>\n"
+    "title": "Web-safe Colours, Part 6: Orange",
+    "content": "<source srcset=\"./img/orange.avif\" type=\"image/avif\" />\n      <img src=\"./img/orange.png\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet excepturi dolorem perferendis, in commodi omnis illum\nquasi magnam eius id quaerat. Nostrum optio rem porro illo, corrupti corporis expedita consequatur aut consequuntur sunt\nquisquam libero ipsam saepe consectetur. Error dicta perferendis eius sint possimus? Qui harum vel asperiores quidem\nblanditiis!</p>\n"
   },
   {
     "id": "7",
-    "title": "A Long Article Part #7",
-    "content": "<source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n        <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n    </picture>\n<p>As well as being minified, the JavaScript is transpiled to version <a href=\"https://www.geeksforgeeks.org/javascript/es2015-latest-version-of-javascript/\" target=\"_blank\" rel=\"noopener noreferrer\">ES2015</a> for wider browser support.</p>\n"
+    "title": "Web-safe Colours, Part 7: Purple",
+    "content": "<source srcset=\"./img/purple.avif\" type=\"image/avif\" />\n        <img src=\"./img/purple.png\" alt=\"\" width=\"584\" class=\"main-image\">\n    </picture>\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, natus adipisci. Suscipit minima est commodi velit! Nulla,\neum ab corporis provident autem ut repellendus cumque corrupti, eaque inventore laborum eos exercitationem voluptatum\nplaceat vero debitis. Assumenda deserunt quidem culpa, quibusdam suscipit voluptatem magni vel ducimus eaque molestias,\ntenetur repellendus reprehenderit!</p>\n"
   },
   {
     "id": "8",
-    "title": "A Long Article Part #8",
-    "content": "<source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n    <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Site assets, such as images and favicons are copied across to the\n    <code>/docs</code> folder during the build process. These files must be specified in the\n    <code>scripts</code> section of the <code>package.json</code> file.\n</p>\n"
+    "title": "Web-safe Colours, Part 8: Red",
+    "content": "<source srcset=\"./img/red.avif\" type=\"image/avif\" />\n    <img src=\"./img/red.png\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum maiores ratione assumenda magni, eum laboriosam quaerat\ninventore voluptas doloribus minima consectetur sequi aliquam dolorem fugiat incidunt amet esse ipsum, recusandae dicta\npraesentium quo atque non. Maxime fugit alias facilis aperiam, harum molestias natus ad eum amet corporis animi magni\nest.</p>\n"
   },
   {
     "id": "9",
-    "title": "A Long Article Part #9",
-    "content": "<source srcset=\"./img/main-image.avif\" type=\"image/avif\" />\n    <img src=\"./img/main-image.jpg\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>The original source files (<code>index.js</code>, files in <code>js-modules/</code>,\n    <code>style.css</code> with nesting, etc.) remain in the project root for easier development and\n    editing.\n</p>\n"
+    "title": "Web-safe Colours, Part 9: Yellow",
+    "content": "<source srcset=\"./img/yellow.avif\" type=\"image/avif\" />\n    <img src=\"./img/yellow.png\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni odio exercitationem obcaecati explicabo. Cum perferendis\nlaborum temporibus soluta, quasi fuga, animi, nihil modi autem consectetur beatae a adipisci. Recusandae, ipsa\nquibusdam? Eos alias odit ut, voluptatum accusamus ipsa tempora debitis, nemo nostrum necessitatibus recusandae sapiente\ndolorum officiis, ipsum non perferendis?</p>\n"
   }
 ]
