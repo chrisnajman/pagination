@@ -1,18 +1,16 @@
-/* .main {
-    position: relative;
-} */
-
 .page-content {
     max-width: 36.5rem;
     & img {
         margin-inline: auto;
-        /* Invert image for dark mode */
-        filter: invert(var(--image-invert));
     }
 
     & p {
         padding-inline: 1em;
     }
+}
+
+img {
+    margin-inline: auto;
 }
 
 .paginator-container {

@@ -12,7 +12,7 @@
     --el-bg: #fff;
     --accent-colour: blue;
     --accent-neutral: #ccc;
-    --image-invert: 0;
+    --image-invert: 0; /* filter: invert(var(--image-invert)); */
     --shadow-top: 0 -4px 6px rgba(0, 0, 0, 0.2);
     --shadow-bottom: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -23,7 +23,7 @@
     --el-bg: #000;
     --accent-colour: aqua;
     --accent-neutral: #666;
-    --image-invert: 1;
+    --image-invert: 1; /* filter: invert(var(--image-invert)); */
     --shadow-top: 0 -4px 6px rgba(0, 0, 0, 0.7);
     --shadow-bottom: 0 4px 6px rgba(0, 0, 0, 0.7);
 }
