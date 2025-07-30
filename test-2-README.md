@@ -15,40 +15,20 @@ A fully accessible, modular JavaScript pagination component with screen reader s
 - Initial page content loads dynamically from JSON
 - Automatic focus and ARIA attributes for active page button
 - Responsive layout for mobile and desktop
+- Theme toggling with persistent local storage
+- Built with no frameworks; only modern vanilla JavaScript
 
 ---
 
 ## HTML
 
-The HTML structure includes an `<article>` element containing two empty containers: `#page-title` and `#page-content`. These are dynamically populated by JavaScript—`#page-title` receives the current page’s heading (`<h1>`), and `#page-content` receives the associated content.
-
-Below the article, there is a visually hidden live region (`#live-region`) used for screen reader announcements whenever the content changes, improving accessibility. Finally, the `<nav>` element contains the paginator controls, built dynamically via JavaScript.
+The HTML structure includes two empty containers inside the `<article>` element: `page-title` and `page-content`. These are dynamically populated by JavaScript to display each page's heading and content respectively.
 
 ```html
 <article class="page-content flow">
-  <header id="page-title"></header>
-  <div
-    id="page-content"
-    class="flow"
-  ></div>
+    <header id="page-title"></header>
+    <div id="page-content" class="flow"></div>
 </article>
-
-<div
-  id="live-region"
-  class="visually-hidden"
-  aria-live="polite"
-  aria-atomic="true"
-></div>
-
-<nav
-  aria-label="Pagination"
-  class="paginator-container"
->
-  <div
-    id="paginator"
-    class="paginator"
-  ></div>
-</nav>
 ```
 
 ---
