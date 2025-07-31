@@ -8,10 +8,10 @@ export default function loadPageContent(allPages, pageNum) {
   const page = allPages.find((p) => p.id == pageNum.toString())
 
   if (page) {
-    // 🟡 Show loader before changing content
+    // Show loader before changing content
     showLoader()
 
-    // 🟡 Slight delay to allow loader to visibly appear
+    // Slight delay to allow loader to visibly appear
     setTimeout(() => {
       pageTitle.innerHTML = "" // Clear previous heading
       mainHeading.textContent = page.title
@@ -24,8 +24,8 @@ export default function loadPageContent(allPages, pageNum) {
           : `Page ${pageNum} loaded`
       )
 
-      // ✅ Hide loader after content has rendered
+      // Hide loader after content has rendered
       hideLoader()
-    }, 250) // 150ms delay is usually enough for visible feedback
+    }, 250)
   }
 }
