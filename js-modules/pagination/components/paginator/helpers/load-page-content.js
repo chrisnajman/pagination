@@ -26,6 +26,6 @@ export default function loadPageContent(allPages, pageNum) {
 
       // Hide loader after content has rendered
       hideLoader()
-    }, 250)
+    }, 750)
   }
 }
