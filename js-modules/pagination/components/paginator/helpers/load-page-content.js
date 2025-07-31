@@ -26,6 +26,6 @@ export default function loadPageContent(allPages, pageNum) {
 
       // ✅ Hide loader after content has rendered
       hideLoader()
-    }, 150) // 150ms delay is usually enough for visible feedback
+    }, 250) // 150ms delay is usually enough for visible feedback
   }
 }
