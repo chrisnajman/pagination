@@ -81,7 +81,9 @@ The JavaScript has been split into separate modules, improving code modularity:
 
 ### Other
 
-- `loader.js`: Displays a loader animation until the page is fully rendered, then removes the loader and announces readiness for screen readers.
+- `loader.js`: Manages the loader animation used for both the **initial page load** and **pagination updates**.
+  - On first load, it displays a full-screen loader until the page is rendered, then removes it and announces "Page has loaded" for screen reader users.
+  - During pagination, it briefly shows the loader while new content is being injected, providing a smoother visual transition and improved accessibility feedback.
 - `theme.js`: Handles theme toggling (light/dark mode) and local storage management.
 
 ---
