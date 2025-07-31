@@ -1,17 +1,17 @@
 .page-content {
-    max-width: 36.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-inline: auto;
     & img {
         margin-inline: auto;
+        width: 100%;
     }
 
     & p {
         padding: 1em;
-        border: 0.125rem solid var(--accent-neutral);
+        background-color: var(--accent-neutral);
     }
-}
-
-img {
-    margin-inline: auto;
 }
 
 .paginator-container {

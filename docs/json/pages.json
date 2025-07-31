@@ -1,8 +1,8 @@
 [
   {
     "id": "1",
-    "title": "Web-safe Colours, Part 1: Aqua",
-    "content": "<picture>\n      <source srcset=\"./img/aqua.avif\" type=\"image/avif\" />\n      <img src=\"./img/aqua.png\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa inventore fuga temporibus sint nulla, amet dolorem nam\nconsequatur voluptates natus qui rerum officia quos fugit error rem, perferendis voluptatibus dolorum dignissimos\nobcaecati accusamus! Iusto repudiandae accusamus, maiores, suscipit, adipisci dicta nobis ad animi sapiente consequatur\npossimus consectetur quidem voluptas amet.</p>\n"
+    "title": "Web-safe Colours, Part 1: Magenta",
+    "content": "<picture>\n      <source srcset=\"./img/magenta.avif\" type=\"image/avif\" />\n      <img src=\"./img/magenta.png\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa inventore fuga temporibus sint nulla, amet dolorem nam\nconsequatur voluptates natus qui rerum officia quos fugit error rem, perferendis voluptatibus dolorum dignissimos\nobcaecati accusamus! Iusto repudiandae accusamus, maiores, suscipit, adipisci dicta nobis ad animi sapiente consequatur\npossimus consectetur quidem voluptas amet.</p>\n"
   },
   {
     "id": "2",
@@ -21,8 +21,8 @@
   },
   {
     "id": "5",
-    "title": "Web-safe Colours, Part 5: Magenta",
-    "content": "<source srcset=\"./img/magenta.avif\" type=\"image/avif\" />\n    <img src=\"./img/magenta.png\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut corrupti qui molestiae error consequatur odio eaque,\nrecusandae animi cum a nesciunt architecto mollitia quas doloribus repudiandae dicta quisquam. Voluptates cumque vitae\nsint assumenda ex consequuntur recusandae officia quidem quos iusto tenetur, illum consectetur sed fugiat possimus natus\nmaiores voluptatem commodi!</p>\n"
+    "title": "Web-safe Colours, Part 5: Aqua",
+    "content": "<source srcset=\"./img/aqua.avif\" type=\"image/avif\" />\n    <img src=\"./img/aqua.png\" alt=\"\" width=\"584\" class=\"main-image\">\n</picture>\n<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut corrupti qui molestiae error consequatur odio eaque,\nrecusandae animi cum a nesciunt architecto mollitia quas doloribus repudiandae dicta quisquam. Voluptates cumque vitae\nsint assumenda ex consequuntur recusandae officia quidem quos iusto tenetur, illum consectetur sed fugiat possimus natus\nmaiores voluptatem commodi!</p>\n"
   },
   {
     "id": "6",
